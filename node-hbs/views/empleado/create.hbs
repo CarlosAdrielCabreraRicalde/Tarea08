@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crear Empleados</title>
+    </head>
+    <body>
+        <div class="container">
+            <h3><a href="/empleado">Lista de Empleados</a></h3>
+            <h1>Crear Nuevo Empleado</h1>
+                        <form action="/empleado/save" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Nombre</td>
+                            <td><input type="text" name="nombre" /></td>
+                        </tr>
+                        <tr>
+                            <td>Apellido</td>
+                            <td><input type="text" name="apellido" /></td>
+                        </tr>
+                        <tr>
+                            <td>Cargo</td>
+                            <td><input type="text" name="cargo" /></td>
+                        </tr>
+                        <tr>
+                            <td>Genero</td>
+                            <td><input type="text" name="genero" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" value="Grabar" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
+
